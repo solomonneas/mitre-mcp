@@ -21,6 +21,10 @@
     "type": "git",
     "url": "https://github.com/solomonneas/mitre-mcp.git"
   },
+  "homepage": "https://github.com/solomonneas/mitre-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/solomonneas/mitre-mcp/issues"
+  },
   "keywords": [
     "mcp",
     "mitre",
