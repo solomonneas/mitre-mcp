@@ -1,0 +1,49 @@
+{
+  "name": "mitre-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for MITRE ATT&CK knowledge base - technique lookup, threat intelligence, detection coverage analysis",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mitre-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "author": "Solomon Neas <me@solomonneas.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solomonneas/mitre-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "mitre",
+    "attack",
+    "att&ck",
+    "soc",
+    "security",
+    "threat-intelligence",
+    "ttp",
+    "stix"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
