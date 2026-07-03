@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/mitre-mcp-banner.jpg" alt="mitre-mcp banner" width="900">
+  <img src="docs/assets/mitre-mcp-social-preview.jpg" alt="mitre-mcp banner" width="900">
 </p>
 
 <h1 align="center">mitre-mcp</h1>
@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <img src="https://shieldcn.dev/npm/mitre-mcp.svg" alt="npm version" />
   <img src="https://shieldcn.dev/github/ci/lidless-labs/mitre-mcp.svg?branch=main&workflow=ci.yml" alt="CI status" />
+  <img src="https://shieldcn.dev/npm/mitre-mcp.svg" alt="npm version" />
   <img src="https://shieldcn.dev/badge/MCP-server-8A2BE2.svg" alt="MCP server" />
   <img src="https://shieldcn.dev/badge/MITRE-ATT%26CK-d04437.svg" alt="MITRE ATT&CK" />
   <img src="https://shieldcn.dev/badge/license-MIT-green.svg" alt="MIT license" />
