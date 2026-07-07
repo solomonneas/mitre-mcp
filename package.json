@@ -1,12 +1,12 @@
 {
   "name": "mitre-mcp",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "MCP server for MITRE ATT&CK knowledge base - technique lookup, threat intelligence, detection coverage analysis",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "attack": "./dist/cli.js",
-    "mitre-mcp": "./dist/mcp-bin.js"
+    "attack": "dist/cli.js",
+    "mitre-mcp": "dist/mcp-bin.js"
   },
   "scripts": {
     "build": "tsup",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lidless-labs/mitre-mcp.git"
+    "url": "git+https://github.com/lidless-labs/mitre-mcp.git"
   },
   "homepage": "https://github.com/lidless-labs/mitre-mcp#readme",
   "bugs": {
